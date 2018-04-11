@@ -1,0 +1,45 @@
+.popup {
+    display: none;
+    width: 800px;
+    height: 150px;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+.form {
+    width: 100%;
+}
+
+.mapcenter {
+    position: relative;
+    margin: 0 auto;
+
+}
+
+#woodchest {
+    position: absolute;
+    top : 180px;
+    left: 624px;
+}
+
+#map{
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top:0px;
+    left:0px;
+
+}
+#charac{
+    position:absolute;
+    height:32px;
+    width:32px;
+}
+.arrow{
+    position: absolute;
+    top:456px;
+    left:624px;
+    height:40px;
+    width:40px;
+}
